@@ -1,0 +1,51 @@
+.modal-blog.modal,
+.modal-blog.overlay {
+  overflow: scroll;
+}
+
+.modal-blog.modal .modal-content {
+  position: relative;
+  top: 10%;
+  left: 0;
+  max-width: 70%;
+  margin: auto;
+  margin-bottom: 10%;
+}
+
+.modal-blog .modal-content .left,
+.modal-blog .modal-content .right {
+  width: 100%;
+  padding: 0;
+  margin-top: 30px;
+}
+
+/* .box .img {
+  height: 300px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.box img {
+  width: 80%;
+  height: 90%;
+  border-radius: 10px;
+  transition: 0.5s;
+} */
+
+/*----------blog_contact--------*/
+
+.blog_contact .left,
+.blog_contact .right {
+  margin: 0 25px 0 0;
+}
+
+/*----------blog_contact--------*/
+@media (max-width: 768px) {
+  .modal-blog.modal .modal-content {
+    max-width: 90%;
+  }
+
+  .modal-blog.modal .modal-content {
+    margin-bottom: 20%;
+  }
+}
